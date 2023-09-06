@@ -6,7 +6,7 @@ After doing calculation of TM like divide by protein sequence length and multipl
 
 ![image](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/7bb36025-c4ab-44a9-a3e5-7b647c6c3475)
 
-fig2.Plotting of data on their sequence lentgh
+fig.2 Plotting of data on their sequence lentgh
 
 Features we extracted from protein sequence 
 
