@@ -1,5 +1,10 @@
 The melting temperature or Tm is a critical parameter that characterizes its stability and structural integrity. This temperature represents the point at which the protein begins to denature or lose its native three-dimensional configuration, mostly due to the disruption of non-covalent bonds such as hydrogen bonds, hydrophobic interactions, and electrostatic forces that maintain its folded state.
+
 The Tm can vary among different proteins due to change in protein's amino acid composition and sequence. Utilizing this fact we have developed this machine learning model to predict Tm from protein sequence. The developed model is based on Convolutional Neural Network (CNN), trained on descriptors obtained from protein sequence encoding and experimental Tm values.
+
+Dataset
+
+A dataset with protein Uniprot ID, sequence and Tm in degree celcius was obtained from ProTstab2 website (http://8.133.174.28:8000/ProTstab2/). This data set was consist of a total of 34913 data points. The dataset was curated, cleaned and then divided into three parts for training, testing and validation.
 
 ![Screenshot from 2023-09-06 13-38-39](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/5b74bb45-0dc2-4b7a-a2de-4c799e109498)
 
