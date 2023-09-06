@@ -8,7 +8,7 @@ After doing calculation of TM like divide by protein sequence length and multipl
 
 fig.2 Plotting of data on their sequence lentgh
 
-    Features we extracted from protein sequence 
+Features we extracted from protein sequence 
     
     AAC: amino acid composition descriptors (20)
     
