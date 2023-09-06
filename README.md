@@ -7,13 +7,23 @@ After doing calculation of TM like divide by protein sequence length and multipl
 features we extracted from protein sequence 
 
 AAC: amino acid composition descriptors (20)
+
 DPC: dipeptide composition descriptors (400)
+
 TPC: tri-peptide composition descriptors (8000)
+
 MBauto: Normalized Moreau-Broto autocorrelation descriptors (depend on the given properties, the default is 240)
+
 Moranauto: Moran autocorrelation descriptors(depend on the given properties, the default is 240)
+
 Gearyauto: Geary autocorrelation descriptors(depend on the given properties, the default is 240)
+
 CTD: Composition, Transition, Distribution descriptors (CTD) (21+21+105=147)
+
 SOCN: sequence order coupling numbers (depend on the choice of maxlag, the default is 60)
+
 QSO: quasi-sequence order descriptors (depend on the choice of maxlag, the default is 100)
+
 PAAC: pseudo amino acid composition descriptors (depend on the choice of lamda, the default is 50)
+
 APAAC: amphiphilic pseudo amino acid composition descriptors(depend on the choice of lamda, the default is 50)
