@@ -4,7 +4,7 @@ After doing calculation of TM like divide by protein sequence length and multipl
 
 ![Screenshot from 2023-09-06 11-48-17](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/0cdd45dd-f66d-448e-b976-56cdf6de1cad)
 
-features we extracted from protein sequence 
+Features we extracted from protein sequence 
 
 AAC: amino acid composition descriptors (20)
 
@@ -27,3 +27,7 @@ QSO: quasi-sequence order descriptors (depend on the choice of maxlag, the defau
 PAAC: pseudo amino acid composition descriptors (depend on the choice of lamda, the default is 50)
 
 APAAC: amphiphilic pseudo amino acid composition descriptors(depend on the choice of lamda, the default is 50)
+
+Noramlization calculation we used
+new_value = Melting Temprature / Length of Protein _sequence *10
+we take Tm value and divided it by length of its protein sequence and then multiply it by 10
