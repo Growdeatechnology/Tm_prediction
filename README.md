@@ -4,7 +4,7 @@ The Tm can vary among different proteins due to change in protein's amino acid c
 
 Dataset
 
-A dataset with protein Uniprot ID, sequence and Tm in degree celcius was obtained from ProTstab2 website (http://8.133.174.28:8000/ProTstab2/). This data set was consist of a total of 34913 data points. The dataset was curated, cleaned and then divided into three parts for training, testing and validation.
+A dataset with protein Uniprot ID, sequence and Tm in degree celcius was obtained from ProTstab2 website (http://8.133.174.28:8000/ProTstab2/). This data set was consist of a total of 34913 data points. The dataset was curated, cleaned and then divided into three parts for training, testing and validation. The data set is consist of a wider range Tm values, the frequency distribution of which is represented in fig.1.
 
 ![Screenshot from 2023-09-06 13-38-39](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/5b74bb45-0dc2-4b7a-a2de-4c799e109498)
 
