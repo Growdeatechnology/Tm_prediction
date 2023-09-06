@@ -35,6 +35,7 @@ Features we extracted from protein sequence
 Noramlization calculation we used
 
 new_value = Melting Temprature / Length of Protein _sequence *10
+
 we take Tm value and divided it by length of its protein sequence and then
 multiply it by 10
 
