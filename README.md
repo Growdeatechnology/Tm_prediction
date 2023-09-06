@@ -1,8 +1,12 @@
-![Screenshot from 2023-09-06 11-46-55](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/04c1e41d-9290-4ec9-b5bf-1bfad8c19a91)
+![Screenshot from 2023-09-06 13-38-39](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/5b74bb45-0dc2-4b7a-a2de-4c799e109498)
+
+fig.1 Tm value data distribution
 
 After doing calculation of TM like divide by protein sequence length and multiply it by 10
 
 ![image](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/7bb36025-c4ab-44a9-a3e5-7b647c6c3475)
+
+fig2.Plotting of data on their sequence lentgh
 
 Features we extracted from protein sequence 
 
