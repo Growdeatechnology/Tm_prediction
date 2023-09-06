@@ -35,8 +35,5 @@ Features we extracted from protein sequence
 Noramlization calculation we used
 
 new_value = Melting Temprature / Length of Protein _sequence *10
-
-![Screenshot from 2023-09-06 13-58-38](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/9e6ccaea-7a2e-43f5-a0e6-d25716d74a7e)
-
-
 we take Tm value and divided it by length of its protein sequence and then multiply it by 10
+![Screenshot from 2023-09-06 13-58-38](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/9e6ccaea-7a2e-43f5-a0e6-d25716d74a7e)
