@@ -2,7 +2,7 @@
 
 After doing calculation of TM like divide by protein sequence length and multiply it by 10
 
-![Screenshot from 2023-09-06 11-48-17](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/0cdd45dd-f66d-448e-b976-56cdf6de1cad)
+![image](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/7bb36025-c4ab-44a9-a3e5-7b647c6c3475)
 
 Features we extracted from protein sequence 
 
