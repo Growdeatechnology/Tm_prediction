@@ -47,7 +47,7 @@ new_value = Melting Temprature / Length of Protein _sequence *10
 we take Tm value and divided it by length of its protein sequence and then
 multiply it by 10
 
-![Screenshot from 2023-09-06 13-58-38](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/9e6ccaea-7a2e-43f5-a0e6-d25716d74a7e)
+![image](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/4dd5ba95-8a04-4dea-bf70-f6f003336401)
 
 ![image](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/08305973-f2e8-46ea-a9c8-aa17f4cba67d)
 
