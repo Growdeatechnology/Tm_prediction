@@ -48,3 +48,6 @@ we take Tm value and divided it by length of its protein sequence and then
 multiply it by 10
 
 ![Screenshot from 2023-09-06 13-58-38](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/9e6ccaea-7a2e-43f5-a0e6-d25716d74a7e)
+
+![image](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/e6f9cd31-1f29-4d3b-a198-988f09bfc461)
+
