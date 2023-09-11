@@ -2,8 +2,7 @@ The melting temperature or Tm is a critical parameter that characterizes its sta
 
 The Tm can vary among different proteins due to change in protein's amino acid composition and sequence. Utilizing this fact we have developed this machine learning model to predict Tm from protein sequence. The developed model is based on Convolutional Neural Network (CNN), trained on descriptors obtained from protein sequence encoding and experimental Tm values.
 
-**Dataset**
-
+## Dataset
 A dataset with protein Uniprot ID, sequence and Tm in degree celcius was obtained from [ProTstab2](http://8.133.174.28:8000/ProTstab2/). This data set was consist of a total of 34913 data points. The dataset was curated, cleaned and then divided into three parts for training, testing and validation. The data set is consist of a wider range Tm values, the frequency distribution of which is represented in fig.1.
 
 ![Screenshot from 2023-09-06 13-38-39](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/5b74bb45-0dc2-4b7a-a2de-4c799e109498)
@@ -11,12 +10,14 @@ A dataset with protein Uniprot ID, sequence and Tm in degree celcius was obtaine
 fig.1 Tm value data distribution
 
 Before proceeding with the model training we performed normalization of the dataset by dividing the Tm values with the length of the corresponding protein sequence. This normalization enhanced the specificity of datapoints towards their corresponding protein sequence. Post normalization data was visualized and is represented in fig. 2. 
+Equation followed for normalization:
+new_value = (Melting Temprature / Length of Protein sequence) * 10; where, new_value is the normalized value obtained. 
 
 ![image](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/7bb36025-c4ab-44a9-a3e5-7b647c6c3475)
 
 fig.2 Plotting of data on their sequence lentgh
 
-**Encoder and Model**
+## Encoder and Model
 To encode the protein sequences [propy3](https://github.com/MartinThoma/propy3/tree/master) was used which calculates eleven different descriptors for each sequence. Following are the Desriptors/Features extracted for protein sequences.
     
     AAC: amino acid composition descriptors (20)
@@ -41,12 +42,7 @@ To encode the protein sequences [propy3](https://github.com/MartinThoma/propy3/t
     
     APAAC: amphiphilic pseudo amino acid composition descriptors(depend on the choice of lamda, the default is 50)
 
-Noramlization calculation we used
 
-new_value = Melting Temprature / Length of Protein _sequence *10
-
-we take Tm value and divided it by length of its protein sequence and then
-multiply it by 10
 
 ![image](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/4dd5ba95-8a04-4dea-bf70-f6f003336401)
 
