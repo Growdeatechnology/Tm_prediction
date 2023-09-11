@@ -10,7 +10,7 @@ A dataset with protein Uniprot ID, sequence and Tm in degree celcius was obtaine
 
 fig.1 Tm value data distribution
 
-After doing calculation of TM like divide by protein sequence length and multiply it by 10
+Before proceeding with the model training we performed normalization of the dataset by dividing the Tm values with the length of the corresponding protein sequence. This normalization enhanced the specificity of datapoints towards their corresponding protein sequence. Post normalization data was visualized and is represented in fig. 2. 
 
 ![image](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/7bb36025-c4ab-44a9-a3e5-7b647c6c3475)
 
