@@ -48,8 +48,9 @@ Convolutional Neural Network (CNN) based predictive model was developed and used
 
 Table 1: R^2 and MSE of the developed model
 
-| R^2 | 0.76 |
-| MSE | 0.01 |
+| R^2 | 0.92 |
+
+| MSE | 0.15 |
 
 ![image](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/4dd5ba95-8a04-4dea-bf70-f6f003336401)
 
