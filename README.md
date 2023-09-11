@@ -44,7 +44,12 @@ To encode the protein sequences [propy3](https://github.com/MartinThoma/propy3/t
     
     APAAC: amphiphilic pseudo amino acid composition descriptors(depend on the choice of lamda, the default is 50)
 
-Convolutional Neural Network (CNN) based predictive model was developed and used for prediction of Tm values from protein sequences.
+Convolutional Neural Network (CNN) based predictive model was developed and used for prediction of Tm values from protein sequences. The developed model yield high coefficient of determination (R^2) and mean squared error (MSE), values of which are given in Table 1.
+
+Table 1: R^2 and MSE of the developed model
+
+| R^2 | 0.76 |
+| MSE | 0.01 |
 
 ![image](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/4dd5ba95-8a04-4dea-bf70-f6f003336401)
 
