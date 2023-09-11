@@ -51,7 +51,6 @@ Table 1: R<sup>2</sup> and MSE of the developed model
 | Statistical measure| Score |
 | --- | ---- |
 | R<sup>2</sup> | 0.92 |
-| --- | ---- |
 | MSE | 0.15 |
 
 
