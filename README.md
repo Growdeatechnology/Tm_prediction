@@ -7,7 +7,7 @@ A dataset with protein Uniprot ID, sequence and Tm in degree celcius was obtaine
 
 ![Screenshot from 2023-09-06 13-38-39](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/5b74bb45-0dc2-4b7a-a2de-4c799e109498)
 
-fig.1 Tm value data distribution
+fig. 1: Tm value data distribution
 
 Before proceeding with the model training we performed normalization of the dataset by dividing the Tm values with the length of the corresponding protein sequence. This normalization enhanced the specificity of datapoints towards their corresponding protein sequence. Post normalization data was visualized and is represented in fig. 2. 
 
@@ -17,7 +17,7 @@ new_value = (Melting Temprature / Length of Protein sequence) * 10; where, new_v
 
 ![image](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/7bb36025-c4ab-44a9-a3e5-7b647c6c3475)
 
-fig.2 Plotting of data on their sequence lentgh
+fig. 2: Plotting of data on their sequence lentgh
 
 ## Encoder and Model
 To encode the protein sequences [propy3](https://github.com/MartinThoma/propy3/tree/master) was used which calculates eleven different descriptors for each sequence. Following are the Desriptors/Features extracted for protein sequences.
@@ -44,7 +44,7 @@ To encode the protein sequences [propy3](https://github.com/MartinThoma/propy3/t
     
     APAAC: amphiphilic pseudo amino acid composition descriptors(depend on the choice of lamda, the default is 50)
 
-Convolutional Neural Network (CNN) based predictive model was developed and used for prediction of Tm values from protein sequences. The developed model yield high coefficient of determination (R^2) and mean squared error (MSE), values of which are given in Table 1.
+Convolutional Neural Network (CNN) based predictive model was developed and used for prediction of Tm values from protein sequences. The developed model yield high coefficient of determination (R<sup>2</sup>) and mean squared error (MSE), values of which are given in Table 1. A detailed plot between observed (or actual) values of Tm and predicted values is represented in fig. 3. Regression line, shown in red in plot depict the accuracy of the model.
 
 Table 1: R<sup>2</sup> and MSE of the developed model
 
@@ -56,3 +56,4 @@ Table 1: R<sup>2</sup> and MSE of the developed model
 
 ![image](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/08305973-f2e8-46ea-a9c8-aa17f4cba67d)
 
+fig. 3: Scatter plot between observed values and predicted values of Tm. 
