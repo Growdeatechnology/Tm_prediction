@@ -2,7 +2,7 @@ The melting temperature or Tm is a critical parameter that characterizes its sta
 
 The Tm can vary among different proteins due to change in protein's amino acid composition and sequence. Utilizing this fact we have developed this machine learning model to predict Tm from protein sequence. The developed model is based on Convolutional Neural Network (CNN), trained on descriptors obtained from protein sequence encoding and experimental Tm values.
 
-Dataset
+**Dataset**
 
 A dataset with protein Uniprot ID, sequence and Tm in degree celcius was obtained from ProTstab2 website (http://8.133.174.28:8000/ProTstab2/). This data set was consist of a total of 34913 data points. The dataset was curated, cleaned and then divided into three parts for training, testing and validation. The data set is consist of a wider range Tm values, the frequency distribution of which is represented in fig.1.
 
@@ -16,7 +16,8 @@ Before proceeding with the model training we performed normalization of the data
 
 fig.2 Plotting of data on their sequence lentgh
 
-Features we extracted from protein sequence 
+**Encoder and Model**
+To encode the protein sequences [propy3](https://github.com/MartinThoma/propy3/tree/master) was used which calculates eleven different descriptors for each sequence. Following are the Desriptors/Features extracted for protein sequences.
     
     AAC: amino acid composition descriptors (20)
     
