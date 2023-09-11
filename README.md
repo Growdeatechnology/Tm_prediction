@@ -48,12 +48,15 @@ Convolutional Neural Network (CNN) based predictive model was developed and used
 
 Table 1: R<sup>2</sup> and MSE of the developed model
 
+| Statistical measure| Score |
+| --- | ---- |
 | R<sup>2</sup> | 0.92 |
 | --- | ---- |
 | MSE | 0.15 |
 
-![image](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/4dd5ba95-8a04-4dea-bf70-f6f003336401)
 
 ![image](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/08305973-f2e8-46ea-a9c8-aa17f4cba67d)
 
 fig. 3: Scatter plot between observed values and predicted values of Tm. 
+
+The prepared model is capable of predicting melting temparature with high accuracy and can contributr to determination of thermal stability of protein molecule. The model is easy to use as it can take both raw protein sequence or Uniprot ID.
