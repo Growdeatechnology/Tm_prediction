@@ -10,7 +10,9 @@ A dataset with protein Uniprot ID, sequence and Tm in degree celcius was obtaine
 fig.1 Tm value data distribution
 
 Before proceeding with the model training we performed normalization of the dataset by dividing the Tm values with the length of the corresponding protein sequence. This normalization enhanced the specificity of datapoints towards their corresponding protein sequence. Post normalization data was visualized and is represented in fig. 2. 
+
 Equation followed for normalization:
+
 new_value = (Melting Temprature / Length of Protein sequence) * 10; where, new_value is the normalized value obtained. 
 
 ![image](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/7bb36025-c4ab-44a9-a3e5-7b647c6c3475)
@@ -42,7 +44,7 @@ To encode the protein sequences [propy3](https://github.com/MartinThoma/propy3/t
     
     APAAC: amphiphilic pseudo amino acid composition descriptors(depend on the choice of lamda, the default is 50)
 
-
+Convolutional Neural Network (CNN) based predictive model was developed and used for prediction of Tm values from protein sequences.
 
 ![image](https://github.com/Growdeatechnology/Tm_prediction/assets/72397529/4dd5ba95-8a04-4dea-bf70-f6f003336401)
 
