@@ -47,6 +47,7 @@ To encode the protein sequences [propy3](https://github.com/MartinThoma/propy3/t
 Convolutional Neural Network (CNN) based predictive model was developed and used for prediction of Tm values from protein sequences. The developed model yield high coefficient of determination (R^2) and mean squared error (MSE), values of which are given in Table 1.
 
 Table 1: R^2 and MSE of the developed model
+
 | --- | ---- |
 | R^2 | 0.92 |
 | --- | ---- |
